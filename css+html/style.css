@@ -1,0 +1,47 @@
+html { /* o background de toda a pagina */
+    background: #16161D;
+}
+
+header li {
+    display: inline;
+}
+
+h1 { 
+    color: #C8C093;
+    text-align: center; 
+}
+
+body {
+    font-size: 1em;
+    color: #3d3d3d;
+}
+
+body p { /* cor de todos textos na pagina com a cor branca */  
+    color: #4d4d4d;
+    width: clamp(45ch, 50%, 75ch);
+}
+
+.articles {
+    display: inline-flex;
+}
+
+.articles article img {
+    width: 400px;
+    height: auto;
+}
+
+.esportes {
+    background: #FF996B;
+}
+
+.economia {
+    background: #FFED8A;
+}
+
+.entreterimento {
+    background:  #FF7F7F;
+}
+
+.tecnologia {
+    background: #8AC7DB;
+}
