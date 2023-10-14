@@ -1,7 +1,7 @@
 function get_number(element_id) {
     const number = document.getElementById(element_id).value;
 
-    return number;
+    return parseFloat(number);
 }
 
 function validate_number(number_a, number_b) {
