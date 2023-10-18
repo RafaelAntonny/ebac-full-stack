@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+body {
+    background: #F9F9F9;
+    color: #181816;
+}
+
+.container {
+    max-width: 50rem;
+    width: 100%;
+    margin: 15% auto;
+}
+
+.container h1 {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.container form {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.container form input, .container form button {
+    padding: 0.25rem;
+    font-size: 1rem;
+}
+
+.container form button {
+    margin-left: 2rem;
+}
+
+.container ul{
+    text-align: center;
+    list-style-position: inside;
+    cursor: pointer;
+}
+
+.completed-task {
+    text-decoration: line-through;
+}
