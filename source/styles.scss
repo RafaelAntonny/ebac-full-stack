@@ -1,0 +1,17 @@
+@use 'config/reset.scss';
+@use 'config/colors.scss';
+@use 'sections/header.scss';
+@use 'sections/menu.scss';
+@use 'sections/products.scss';
+
+body {
+    background-color: colors.$body-background-color;
+}
+
+li {
+    list-style: none;
+}
+
+section {
+    padding: 56px 0;
+}
