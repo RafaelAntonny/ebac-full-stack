@@ -24,7 +24,7 @@
         text-decoration: none;
 
         &:hover {
-            background-color: colors.$button-color-hover;
+            background-color: lighten(colors.$button-color, 15%);
         }
     }
 }
