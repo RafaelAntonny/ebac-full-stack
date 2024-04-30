@@ -1,3 +1,5 @@
+@import 'config/colors.less';
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +8,7 @@
 }
 
 body {
-    background-color: @background-color;
+    background-color: #colors[body-background-color];
 }
 
 li {
@@ -18,7 +20,6 @@ section {
 }
 
 @import 'config/container.less';
-@import 'config/colors.less';
 @import 'modules/header.less';
 @import 'modules/menu.less';
 @import 'modules/products.less';
