@@ -2,6 +2,6 @@ function multiply(numberA:number, numberB:number): number {
     return numberA * numberB
 }
 
-function greet(nome:string): string {
-    return "Olá " + nome;
+function greet(name:string): string {
+    return "Olá " + name;
 }
