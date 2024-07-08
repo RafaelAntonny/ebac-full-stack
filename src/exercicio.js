@@ -7,6 +7,4 @@ var alunos = alunosNomes.map(function(nome) {
     }
 })
 
-console.log(alunos.filter(function(aluno) {
-    return aluno.nota >= 6;
-}))
+console.log(alunos.filter( aluno => aluno.nota >= 6));

@@ -2,3 +2,4 @@ node_modules
 dist
 arrays.js
 test.js
+arrow.js
