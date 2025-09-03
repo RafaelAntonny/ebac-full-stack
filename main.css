@@ -12,24 +12,23 @@
 }
 
 body {
-    background-color: var(--bg-color);;
+    background-color: var(--bg-color);
 }
 
 .container {
     max-width: 640px;
     width: 100%;
     margin: 0 auto;
+    text-align: center;
+    height: 30vh;
+    position: relative;
+    bottom: -50%;
 }
 
 header {
     background-color: var(--header-color);
     text-align: center;
     height: 30vh;
-}
-
-header .container {
-    position: relative;
-    bottom: -50%;
 }
 
 .profile-avatar {
@@ -48,13 +47,22 @@ header .container {
     font-size: 1.1em;
 }
 
-.profile-link {
+.button {
     background-color: var(--header-color);
     color: var(--bg-color);
     padding: 8px 16px;
     display: inline-block;
     margin-top: 24px;
     text-decoration: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.searchbar {
+    padding: 6px;
+    border: none;
+    font-size: 17px;
 }
 
 .numbers {
@@ -68,5 +76,5 @@ header .container {
 }
 
 .numbers-item h4 {
-    font-size: .3em;
+    font-size: 0.3em;
 }
